@@ -1,0 +1,22 @@
+/**正常情况**/
+QPushButton{
+    color: #000000;
+    background-color: #ffffff;
+    border-style: none;
+}
+/**鼠标停留**/
+QPushButton::hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/**鼠标按压**/
+QPushButton::pressed,QPushButton::checked{
+    color: #000000;
+    background-color: #ffffff;
+}
+/**按钮失能**/
+QPushButton::disabled{
+    color: #000000;
+    background-color: #e6e6e6;
+}
